@@ -114,3 +114,27 @@ body {
 .column-container p {
     text-align: center;
 }
+/*section 3 */
+.quotes-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+#actual-quote{
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: left;
+}
+.quote {
+    width: 825px;
+}
+.quotes-container #author {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
